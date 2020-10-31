@@ -1,0 +1,77 @@
+.navbar {
+	height: 10%;
+	padding-left: 32;
+}
+
+.carousel-container {
+	height: 90%;
+}
+
+.carousel {
+	height: 100%;
+}
+
+.carousel-inner {
+	height: 95%;
+	color: black;
+}
+
+.carousel-item a {
+	height: 100%;
+	width: 100%;
+	background-color: white;
+}
+
+	.carousel-item a:hover {
+		text-decoration: none;
+	}
+
+.image-box {
+	height: 82.5%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin: 2.5% 0 2.5% 0;
+}
+
+.filler {
+	flex-grow: 1;
+}
+
+.carousel-image {
+	height: 100%;
+	opacity: 1;
+}
+
+.carousel-text {
+	height: 10%;
+  	color: black;
+  	font-size: xx-large;
+  	width: 100%;
+  	text-transform: capitalize;
+  	margin-top: 2.5%;
+  	text-align: center;
+}
+
+.content-box {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.carousel-control-next-icon {
+    background-color: white;
+    background-blend-mode: difference;
+}
+
+.carousel-control-prev-icon {
+    background-color: white;
+    background-blend-mode: difference;
+}
+
+.carousel-indicators {
+	height: 5%;
+}
+	.carousel-indicators  li {
+		background-color: black;
+	}
