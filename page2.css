@@ -1,0 +1,10 @@
+h1 {
+    text-align: center;
+}
+
+iframe {
+    width: 320px;
+    height: 240px;
+    margin: 0 auto;
+    display: block;
+}
