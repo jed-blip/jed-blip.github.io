@@ -1,3 +1,7 @@
+body {
+    background-color: white;
+}
+
 h1 {
     text-align: center;
 }
@@ -6,5 +10,34 @@ iframe {
     width: 320px;
     height: 240px;
     margin: 0 auto;
+    display: block;
+}
+footer {
+    text-align: center;
+    position: absolute;
+    color: white;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-height: 0;
+    height: 300px;
+    background-color: gray;
+    display: none;
+}
+
+.fTab {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 1em;
+    background-color: gray;
+}
+
+.fTab.active {
+    bottom: 200px;
+}
+
+.fTab.active + footer {
+    max-height: 200px;
     display: block;
 }
