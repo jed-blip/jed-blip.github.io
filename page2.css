@@ -12,9 +12,10 @@ iframe {
     margin: 0 auto;
     display: block;
 }
+
 footer {
     text-align: center;
-    position: absolute;
+    position: fixed;
     color: white;
     left: 0;
     right: 0;
@@ -26,7 +27,7 @@ footer {
 }
 
 .fTab {
-    position: absolute;
+    position: fixed;
     text-align: center;
     margin: 0 auto;
     bottom: 0;
