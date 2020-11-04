@@ -2,14 +2,41 @@ body {
     background-color: white;
 }
 
-h1 {
+.navbar {
+    background: #CCCCCC;
+}
+.heading {
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
 }
 
-.more-content {
+.text-container-one {
+    border-radius: 25px;
+    background: #add8e6;
+    width: 90%;
+    margin: auto auto 10px;
+}
+
+.text-container-two {
+    border-radius: 25px;
+    background: #FFFFCC;
+    width: 90%;
+    margin: auto auto 10px;
+}
+
+.video-container {
     text-align: center;
-    width: 50%;
+    border-radius: 25px;
+    background: #ccffcc;
+    width: 90%;
     margin: auto;
+    padding: 20px;
+}
+
+.more-content {
+    margin: auto;
+    width: 50%;
 }
 
 .embed-container {
@@ -33,13 +60,13 @@ h1 {
 footer {
     text-align: center;
     position: fixed;
-    color: white;
+    color: black;
     left: 0;
     right: 0;
     bottom: 0;
     max-height: 0;
     height: 300px;
-    background-color: gray;
+    background-color: #CCCCCC;
     display: none;
 }
 
@@ -52,7 +79,7 @@ footer {
     right: 0;
     width: 180px;
     padding: 1em;
-    background-color: gray;
+    background-color: #CCCCCC;
 }
 
 .fTab.active {
